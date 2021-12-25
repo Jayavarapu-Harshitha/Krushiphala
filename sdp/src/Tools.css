@@ -1,0 +1,60 @@
+.image{
+  
+    height:400px;
+    width:400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    align-content: center;
+    box-shadow: black 0px 7px 29px 0px;
+}
+.tool-info{
+    
+    padding-top: 10px;
+    width:900px;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+.AgriTools .tool-info .guide-video #video,.Machinery .tool-info .guide-video #video{
+    text-align: center;
+    
+}
+.name{
+ font-family: 'Cinzel',sans-serif;
+ color:blue;
+ font-size: 30px;
+ font-weight:  bold;
+ text-align: center;
+ padding-top: 10px;
+ text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.AgriTools,.Machinery,.GardenTools{ 
+   text-align: center;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+.description{
+    font-family: 'Philosopher', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.Usage p{
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    color:maroon;
+}
+.Usage li{
+    font-family: 'Tinos', serif;
+    font-size: 18px;
+    font-weight: 580;
+    color:4px solid black;
+}
+ .Functionality li{
+    font-family: 'Tinos',serif;
+    font-size: 20px;
+}

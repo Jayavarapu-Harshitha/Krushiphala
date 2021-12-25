@@ -1,0 +1,13 @@
+.card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+        text-align: center;
+        background-color: seashell;
+        /* width: 340px;
+        height: 280px; */
+      border-radius: 10px;   
+      align-items:space-between;
+      justify-content:space-between;
+      flex-wrap:wrap;
+      padding-bottom: 10px;
+      flex-direction: row;
+      }

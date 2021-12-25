@@ -1,0 +1,80 @@
+.Crops .season{
+  padding-left: 420px;
+ 
+}
+.crop-content{
+  text-align: center;
+  padding-left:40px;
+  text-align: center;
+  padding-left: 25px;
+  background: transparent;
+}
+.Crops{
+  background-image:url(./images/Crops/cropsbkground.jpg);
+
+}
+
+.Crops .crop-content img{
+  height: 250px;
+  border-radius: 10px;  
+  width:280px;
+  padding-top:5px;
+
+}
+.Crops .crop-content .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    text-align: center;
+    background-color: seashell;
+    width: 340px;
+    height: 280px;
+  border-radius: 10px;   
+  align-items:space-between;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  padding-bottom: 55px;
+  margin-left: 40px;
+  margin-bottom: 15px;
+  
+  }
+ 
+ .Crops .crop-content .card:hover{
+    -ms-transform: scale(1.2); 
+  -webkit-transform: scale(1.0); 
+  transform: scale(1.2);
+  box-shadow:2px 2px 4px 3px brown;
+  padding-bottom: 20px;
+  
+  }
+ 
+.crop-content #title{
+   
+    font-style: bold;
+    font-size: 20px;
+    text-align: top;
+    text-align: center;
+    color:6px solid lightseagreen;
+    font-family: 'Libre Baskerville', serif;
+    position: relative;
+}
+.crop-content{
+  display: flex;
+  flex-direction: initial;
+  padding: 20px;
+  flex-wrap:wrap;
+  margin: auto;
+  
+}
+.Crops .crop-content #flip{
+  background: transparent;
+    box-shadow: 0px 0px 0px transparent;
+    border: 0px solid transparent;
+    text-shadow: 0px 0px 0px transparent;
+}
+  /* Responsive columns - one column layout (vertical) on small screens */
+   @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  } 

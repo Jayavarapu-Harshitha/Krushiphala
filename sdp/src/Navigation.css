@@ -1,0 +1,81 @@
+ nav{
+    top:0;
+    padding:10px;
+    background: url(./images/Homebk.jpg);
+    height: 50px;
+   align-items: right;
+  }
+  
+  .navigate li{
+    
+    justify-content: space-between;
+    list-style: none;
+    margin: auto;
+    display: inline-block;
+
+    font-size: 24px;
+  }
+
+ .navigate .nav-item{
+   text-align: right;
+ }
+  
+  .dropbtn {
+    padding:0px 20px;
+    display: inline-block;
+    position:relative;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    border:border-box;
+    border-radius: 10px;
+    position: relative;
+    display: inline-block;
+   
+    border: 40px;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 133px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .navigate .dropdown .dropdown-content{
+    background:darkblue;
+    
+  }
+  .navigate .dropdown .dropdown-content .tool-item{
+    align-items: center;
+  }
+  .dropdown-content li {
+   
+    display: block;
+    width: 160px;
+  }
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .navigate  .nav-item ,.navigate .dropbtn,.navigate .dropdown-content .tool-item{
+    background: transparent;
+    box-shadow: 0px 0px 0px transparent;
+    border: 0px solid transparent;
+    text-shadow: 0px 0px 0px transparent;
+  }
+
+.navigate .title{
+  text-shadow: 5px 5px 5px lemonchiffon;
+  background: transparent;
+  box-shadow: 0px 0px 0px transparent;
+  border: 0px solid transparent;
+  text-shadow: 0px 0px 0px transparent;
+  padding-left: 250px;
+  
+}
+  
